@@ -1,0 +1,46 @@
+.feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: rem(280);
+  padding: rem(50) rem(52) rem(55) rem(42);
+  color: $white;
+
+  &--pink {
+    background-color: $danger-color;
+  }
+  
+  &--dark {
+    background-color: $primary-color;
+  }
+  
+  &--purple {
+    background-color: $purple-color;
+  }
+  
+  &--green {
+    background-color: $success-color;
+  }
+  
+  &--photographer {
+    background-image: url(../img/photographer.png);
+    background-size: cover;
+  }
+  
+  &--winter {
+    background-image: url(../img/winter-sun.png);
+    background-size: cover;
+  }
+  
+  &--hair {
+    background-image: url(../img/girl-hair.png);
+    background-size: cover;
+  }
+
+
+
+  &__links {
+    display: flex;
+    justify-content: space-between;
+  }
+}

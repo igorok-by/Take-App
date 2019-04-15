@@ -1,0 +1,16 @@
+.header {
+  padding-bottom: .85em;
+  font-size: rem(35);
+  font-weight: 300;
+  line-height: rem(24);
+  color: $neutral-primary;
+
+  &--small {
+    font-size: rem(30);
+    color: $white;
+  }
+
+  &--big-bottom {
+    padding-bottom: 1.85em;
+  }
+}

@@ -1,0 +1,12 @@
+.iphone {
+  position: absolute;
+  top: 21vh;
+  right: 12.9vw;
+  max-height: 75vh;
+  max-width: rem(716);
+
+  @media screen and (max-width: $lgDesktopWidth) {
+    top: 22vh;
+    right: 9vw;
+  }
+}

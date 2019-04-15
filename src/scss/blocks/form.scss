@@ -1,0 +1,13 @@
+.form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: rem(205);
+  border: rem(2) solid $neutral-placeholder;
+  border-radius: rem(36);
+  background-color: $neutral-placeholder;
+
+  &:focus-within {
+    box-shadow: 0 3px 12px -3px $success-color;
+  }
+}

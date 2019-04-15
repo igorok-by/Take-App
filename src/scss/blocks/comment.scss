@@ -1,0 +1,11 @@
+.comment {
+  align-self: center;
+  max-width: 22.58vw;
+  padding-left: 2.216vw;
+  font-size: rem(16);
+  line-height: rem(21);
+
+  &--underline {
+    border-bottom: rem(2) solid $mainFontColor;
+  }
+}

@@ -1,0 +1,14 @@
+.icon-menu {
+
+  &__item {
+    width: rem(38);
+    height: rem(5);
+    border-radius: rem(3);
+    background-color: $mainFontColor;
+    transition: all .4s ease-in-out;
+  }
+  
+  &__item:not(:last-child) {
+    margin-bottom: rem(4);
+}
+}

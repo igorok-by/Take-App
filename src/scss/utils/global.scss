@@ -1,0 +1,63 @@
+html {
+  line-height: $mainLineHeight;
+	font-size: $mainFontSize;
+	color: $mainFontColor;
+  height: 100%;
+
+  @media screen and (max-width: $lgDesktopWidth) {
+		font-size: 17px;
+  }
+
+  @media screen and (max-width: $desktopWidth) {
+		font-size: 16px;
+  }
+
+  @media screen and (max-width: $smDesktopWidth) {
+		font-size: 15px;
+  }
+
+  @media screen and (max-width: $tableWidth) {
+		font-size: 14px;
+  }
+
+  @media screen and (max-width: $phoneWidth) {
+		font-size: 12px;
+  }
+}
+
+body {
+  font-family: $mainFont;
+	font-size: $mainFontSize;
+  font-weight: $mainFontWeight;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*:before,
+*:after { box-sizing: border-box; }
+
+h1, h2, h3, h4, h5, h6 { margin: 0; }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+figure { margin: 0; }
+
+input {
+  color: $mainFontColor;
+  font-family: $mainFont;
+  font-size: $mainFontSize;
+}
+
+p { margin: 0; }
+
+ul, li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,22 @@
+.menu-link {
+  display: none;
+  line-height: 0;
+
+  @media screen and (max-width: $smDesktopWidth) {
+    display: block;
+  }
+
+  &--active {
+    .icon-menu__item:nth-child(1) {
+      transform: translateY(rem(7)) rotate(-45deg);
+    }
+
+    .icon-menu__item:nth-child(2) {
+      opacity: 0;
+    }
+
+    .icon-menu__item:nth-child(3) {
+      transform: translateY(rem(-7)) rotate(45deg);
+    }
+  }
+}

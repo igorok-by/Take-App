@@ -1,0 +1,46 @@
+.text {
+  padding-bottom: 1.75em;
+  font-size: rem(14);
+  font-weight: 400;
+  line-height: rem(24);
+
+  &:not(:last-child) {
+    
+  }
+
+  &--small {
+    font-size: rem(13);
+  }
+
+  &--go-down {
+    padding-top: 7vh;
+
+    @include media-breakpoint-down(lg) { padding-top: 0 }
+  }
+
+  &--bold {
+    padding-bottom: 0;
+    font-weight: 700;
+    transition: all .3s ease-in-out;
+  }
+
+  &--bold:hover {
+    text-decoration: none;
+    color: $neutral-secondary;
+
+    & > .icon--arrow {
+      fill: $neutral-secondary;
+      animation: left-right .8s ease-in-out infinite;
+    }
+  }
+
+  &--bold-dark {
+    padding-bottom: 2em;
+    font-size: rem(13);
+    font-weight: 600;
+  }  
+
+  &--white {
+    color: $white;
+  }
+}

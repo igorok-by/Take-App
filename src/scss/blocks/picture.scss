@@ -1,0 +1,14 @@
+.picture {
+  width: 26.913vw;
+  min-width: 26.913vw;
+  height: 26.913vw;
+  margin-top: rem(9);
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: 0 0 10px $neutral-secondary;
+  
+  &__img {
+    height: 26.913vw;
+    margin-left: -6.7vw;
+  }
+}

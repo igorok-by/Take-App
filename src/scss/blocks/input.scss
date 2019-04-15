@@ -1,0 +1,20 @@
+.input {
+  width: rem(158);
+  height: rem(32);
+  padding-right: rem(13);
+  border: none;
+  border-radius: 0 rem(32) rem(32) 0;
+  background-color: $neutral-placeholder;
+
+  &::placeholder {
+    padding-left: rem(8);
+    font-size: rem(13);
+    text-transform: uppercase;
+    letter-spacing: rem(1.5);
+  }
+
+  &:focus {
+    outline: none;
+    color: $text-focus;
+}
+}
