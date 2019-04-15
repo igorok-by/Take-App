@@ -1,0 +1,18 @@
+.full-wide-screen {
+  max-height: 100vh;
+  min-height: 65vh;
+  padding-top: rem(60);
+  background-size: cover;
+  background-position: center;
+
+  &--take-backgr {
+    background-image: url(../img/cover-header.png);
+  }
+  
+  &--drive-backgr {
+    min-height: 61vh;
+    padding-top: 31vh;
+    background-image: url(../img/car-desk.png);
+  }
+  
+}

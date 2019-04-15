@@ -4,10 +4,6 @@
   font-weight: 400;
   line-height: rem(24);
 
-  &:not(:last-child) {
-    
-  }
-
   &--small {
     font-size: rem(13);
   }
@@ -34,7 +30,7 @@
     }
   }
 
-  &--bold-dark {
+  &--semibold {
     padding-bottom: 2em;
     font-size: rem(13);
     font-weight: 600;
@@ -42,5 +38,9 @@
 
   &--white {
     color: $white;
+  }
+  
+  &--dark {
+    color: $neutral-secondary;
   }
 }
